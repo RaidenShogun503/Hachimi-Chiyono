@@ -361,29 +361,6 @@ pub struct Config {
 }
 
 impl Config {
-<<<<<<< HEAD
-    fn default_open_browser_url() -> String {
-        "https://www.google.com/".to_owned()
-    }
-    fn default_virtual_res_mult() -> f32 {
-        1.0
-    }
-    fn default_ui_scale() -> f32 {
-        1.0
-    }
-    fn default_story_choice_auto_select_delay() -> f32 {
-        1.2
-    }
-    fn default_story_tcps_multiplier() -> f32 {
-        3.0
-    }
-    fn default_meta_index_url() -> String {
-        "https://gitlab.com/umatl/hachimi-meta/-/raw/main/meta.json".to_owned()
-    }
-    fn default_ui_animation_scale() -> f32 {
-        1.0
-    }
-=======
     fn default_open_browser_url() -> String { "https://www.google.com/".to_owned() }
     fn default_virtual_res_mult() -> f32 { 1.0 }
     fn default_ui_scale() -> f32 { 1.0 }
@@ -393,7 +370,6 @@ impl Config {
     fn default_story_tcps_multiplier() -> f32 { 3.0 }
     fn default_meta_index_url() -> String { "https://gitlab.com/umatl/hachimi-meta/-/raw/main/meta.json".to_owned() }
     fn default_ui_animation_scale() -> f32 { 1.0 }
->>>>>>> 77880937974b6b124e05617ad8dd347bd09f008d
 }
 
 impl Default for Config {
@@ -442,12 +418,9 @@ pub enum Language {
 
     #[serde(rename = "vi")]
     Vietnamese,
-<<<<<<< HEAD
-=======
 
     #[serde(rename = "es")]
     Spanish
->>>>>>> 77880937974b6b124e05617ad8dd347bd09f008d
 }
 
 impl Language {
@@ -456,10 +429,7 @@ impl Language {
         Self::TChinese.choice(),
         Self::SChinese.choice(),
         Self::Vietnamese.choice(),
-<<<<<<< HEAD
-=======
         Self::Spanish.choice()
->>>>>>> 77880937974b6b124e05617ad8dd347bd09f008d
     ];
 
     pub fn set_locale(&self) {
@@ -472,10 +442,7 @@ impl Language {
             Language::TChinese => "zh-tw",
             Language::SChinese => "zh-cn",
             Language::Vietnamese => "vi",
-<<<<<<< HEAD
-=======
             Language::Spanish => "es"
->>>>>>> 77880937974b6b124e05617ad8dd347bd09f008d
         }
     }
 
@@ -485,10 +452,7 @@ impl Language {
             Language::TChinese => "繁體中文",
             Language::SChinese => "简体中文",
             Language::Vietnamese => "Tiếng Việt",
-<<<<<<< HEAD
-=======
             Language::Spanish => "Español (ES)"
->>>>>>> 77880937974b6b124e05617ad8dd347bd09f008d
         }
     }
 
@@ -512,11 +476,8 @@ pub struct LocalizedData {
 
     pub plural_form: plurals::Resolver,
     pub ordinal_form: plurals::Resolver,
-<<<<<<< HEAD
-=======
 
     pub wrapper_penalties: Penalties
->>>>>>> 77880937974b6b124e05617ad8dd347bd09f008d
 }
 
 impl LocalizedData {
