@@ -1,0 +1,5 @@
+[target.aarch64-apple-ios]
+rustflags = ["-C", "link-arg=-fuse-ld=lld", "-C", "link-arg=-Wl,-install_name,@rpath/libhachimi.dylib"]
+# Note: On Windows, you might need to ensure 'lld' is in PATH or specify full path to lld-link or similar if using MSVC rust, 
+# but for aarch64-apple-ios we are likely using gnu/clang ABI related tools.
+# Often "cc" is used as linker driver. ensuring clang is in path is critical.

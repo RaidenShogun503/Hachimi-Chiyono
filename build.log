@@ -1,0 +1,1018 @@
+﻿cargo :    Compiling cfg-if v1.0.4
+At E:\Data\Hachimi-Edge\tools\ios\build_windows.ps1:56 char:1
++ cargo build --release --target $TARGET
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (   Compiling cfg-if v1 
+   .0.4:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+   Compiling stable_deref_trait v1.2.1
+   Compiling libc v0.2.177
+   Compiling serde_core v1.0.228
+   Compiling log v0.4.28
+   Compiling smallvec v1.15.1
+   Compiling memchr v2.7.6
+   Compiling zerofrom v0.1.6
+   Compiling bitflags v1.3.2
+   Compiling once_cell v1.21.3
+   Compiling writeable v0.6.2
+   Compiling simd-adler32 v0.3.7
+   Compiling litemap v0.8.1
+   Compiling regex-syntax v0.8.8
+   Compiling adler2 v2.0.1
+   Compiling yoke v0.8.1
+   Compiling miniz_oxide v0.8.9
+   Compiling crossbeam-utils v0.8.21
+   Compiling crc32fast v1.5.0
+   Compiling zeroize v1.8.2
+   Compiling hashbrown v0.16.0
+   Compiling zerovec v0.11.5
+   Compiling zerotrie v0.2.3
+   Compiling core-foundation-sys v0.8.7
+   Compiling equivalent v1.0.2
+   Compiling aho-corasick v1.1.4
+   Compiling bstr v1.12.1
+   Compiling flate2 v1.1.5
+   Compiling rustls-pki-types v1.13.0
+   Compiling tinystr v0.8.2
+   Compiling potential_utf v0.1.4
+   Compiling indexmap v2.12.0
+   Compiling icu_locale_core v2.1.1
+   Compiling icu_collections v2.1.1
+   Compiling crossbeam-epoch v0.9.18
+   Compiling icu_normalizer_data v2.1.1
+   Compiling icu_properties_data v2.1.1
+   Compiling scopeguard v1.2.0
+   Compiling ryu v1.0.20
+   Compiling ttf-parser v0.25.1
+   Compiling same-file v1.0.6
+   Compiling itoa v1.0.15
+   Compiling walkdir v2.5.0
+   Compiling regex-automata v0.4.13
+   Compiling icu_provider v2.1.1
+   Compiling lock_api v0.4.14
+   Compiling crossbeam-deque v0.8.6
+   Compiling zerocopy v0.8.27
+   Compiling parking_lot_core v0.9.12
+   Compiling icu_normalizer v2.1.1
+   Compiling icu_properties v2.1.1
+   Compiling getrandom v0.2.16
+   Compiling serde v1.0.228
+   Compiling winnow v0.7.13
+   Compiling ab_glyph_rasterizer v0.1.10
+   Compiling toml_write v0.1.2
+   Compiling untrusted v0.9.0
+   Compiling ring v0.17.14
+   Compiling toml_datetime v0.6.11
+   Compiling serde_spanned v0.6.9
+   Compiling owned_ttf_parser v0.25.1
+   Compiling ahash v0.8.12
+   Compiling idna_adapter v1.2.1
+   Compiling ab_glyph v0.2.32
+   Compiling ecolor v0.27.2
+   Compiling emath v0.27.2
+   Compiling globset v0.4.18
+   Compiling serde_json v1.0.145
+   Compiling parking_lot v0.12.5
+   Compiling toml_edit v0.22.27
+   Compiling ignore v0.4.25
+   Compiling num-traits v0.2.19
+   Compiling core-foundation v0.9.4
+   Compiling fdeflate v0.3.7
+   Compiling byteorder v1.5.0
+   Compiling unicode-ident v1.0.22
+   Compiling either v1.15.0
+   Compiling nohash-hasher v0.2.0
+   Compiling unsafe-libyaml v0.2.11
+   Compiling utf8_iter v1.0.4
+   Compiling percent-encoding v2.3.2
+   Compiling arc-swap v1.7.1
+   Compiling form_urlencoded v1.2.2
+   Compiling idna v1.1.0
+   Compiling triomphe v0.1.15
+   Compiling serde_yaml v0.9.34+deprecated
+   Compiling epaint v0.27.2
+   Compiling itertools v0.11.0
+   Compiling toml v0.8.23
+   Compiling proc-macro2 v1.0.103
+   Compiling png v0.17.16
+   Compiling core-graphics-types v0.1.3
+   Compiling globwalk v0.8.1
+   Compiling rustls-webpki v0.103.8
+   Compiling objc_exception v0.1.2
+   Compiling regex v1.12.2
+   Compiling webpki-roots v1.0.4
+   Compiling malloc_buf v0.0.6
+   Compiling lazy_static v1.5.0
+   Compiling color_quant v1.1.0
+   Compiling base62 v2.2.3
+   Compiling subtle v2.6.1
+   Compiling normpath v1.5.0
+   Compiling foreign-types-shared v0.3.1
+   Compiling bytemuck v1.24.0
+   Compiling foreign-types-shared v0.1.1
+   Compiling bitflags v2.10.0
+   Compiling siphasher v1.0.1
+   Compiling rust-i18n-support v3.1.5
+   Compiling image v0.24.9
+   Compiling foreign-types v0.3.2
+   Compiling foreign-types v0.5.0
+   Compiling rustls v0.23.35
+   Compiling objc v0.2.7
+   Compiling thiserror v1.0.69
+   Compiling enum-map v2.7.3
+   Compiling webpki-roots v0.26.11
+   Compiling egui v0.27.2
+   Compiling url v2.5.7
+   Compiling dobby-sys v0.1.0 (E:\Data\Hachimi-Edge\deps\dobby-sys)
+warning: constant `MemoryOperationError_kMemoryOperationSuccess` 
+should have an upper case name
+  --> deps\dobby-sys\src\lib.rs:28:15
+   |
+28 |     pub const MemoryOperationError_kMemoryOperationSuccess: 
+c_int = 0;
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+help: convert the identifier to upper case: 
+`MEMORY_OPERATION_ERROR_K_MEMORY_OPERATION_SUCCESS`
+   |
+   = note: `#[warn(non_upper_case_globals)]` (part of 
+`#[warn(nonstandard_style)]`) on by default
+
+warning: constant `MemoryOperationError_kMemoryOperationError` 
+should have an upper case name
+  --> deps\dobby-sys\src\lib.rs:29:15
+   |
+29 |     pub const MemoryOperationError_kMemoryOperationError: 
+c_int = 1;
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: 
+convert the identifier to upper case: 
+`MEMORY_OPERATION_ERROR_K_MEMORY_OPERATION_ERROR`
+
+warning: constant `MemoryOperationError_kNotEnough` should have an 
+upper case name
+  --> deps\dobby-sys\src\lib.rs:30:15
+   |
+30 |     pub const MemoryOperationError_kNotEnough: c_int = 2;
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: convert 
+the identifier to upper case: `MEMORY_OPERATION_ERROR_K_NOT_ENOUGH`
+
+warning: constant 
+`MemoryOperationError_kNotSupportAllocateExecutableMemory` should 
+have an upper case name
+  --> deps\dobby-sys\src\lib.rs:31:15
+   |
+31 |     pub const 
+MemoryOperationError_kNotSupportAllocateExecutableMemory: c_int = 3;
+   |               
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: 
+convert the identifier to upper case: 
+`MEMORY_OPERATION_ERROR_K_NOT_SUPPORT_ALLOCATE_EXECUTABLE_MEMORY`
+
+warning: constant `MemoryOperationError_kNone` should have an upper 
+case name
+  --> deps\dobby-sys\src\lib.rs:32:15
+   |
+32 |     pub const MemoryOperationError_kNone: c_int = 4;
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^ help: convert the 
+identifier to upper case: `MEMORY_OPERATION_ERROR_K_NONE`
+
+warning: `dobby-sys` (lib) generated 5 warnings
+   Compiling iana-time-zone v0.1.64
+   Compiling smawk v0.3.2
+   Compiling block v0.1.6
+   Compiling arrayvec v0.7.6
+   Compiling constant_time_eq v0.3.1
+   Compiling ascii v1.1.0
+   Compiling unicode-linebreak v0.1.5
+   Compiling httpdate v1.0.3
+   Compiling arrayref v0.3.9
+   Compiling base64 v0.22.1
+   Compiling chunked_transfer v1.5.0
+   Compiling unicode-width v0.2.2
+   Compiling tiny_http v0.12.0
+   Compiling blake3 v1.8.2
+   Compiling textwrap v0.16.2
+   Compiling metal v0.27.0
+   Compiling chrono v0.4.42
+   Compiling ureq v2.12.1
+   Compiling dobby-rs v0.1.0
+   Compiling thread-priority v3.0.0
+   Compiling hachimi v0.18.1 (E:\Data\Hachimi-Edge)
+   Compiling rust-i18n v3.1.5
+   Compiling core-graphics v0.22.3
+   Compiling zip v0.6.6
+   Compiling sqlparser v0.43.1
+   Compiling size v0.4.1
+   Compiling widestring v1.2.1
+   Compiling atomic_float v0.1.0
+   Compiling fnv v1.0.7
+   Compiling unicode-width v0.1.14
+   Compiling egui_extras v0.27.2
+warning: unexpected `cfg` condition value: `cargo-clippy`
+  --> src\ios\game_impl.rs:16:35
+   |
+16 |         let bundle: *mut Object = 
+msg_send![cls_bundle.unwrap(), mainBundle];
+   |                                   
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: no expected values for `feature`
+   = note: using a cfg inside a macro will use the cfgs from the 
+destination crate and not the ones from the defining crate
+   = help: try referring to `sel_impl` crate for guidance on how 
+handle this unexpected cfg
+   = help: the macro `sel_impl` may come from an old version of the 
+`objc` crate, try updating your dependency with `cargo update -p 
+objc`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/ca
+rgo-specifics.html> for more information about checking conditional 
+configuration
+   = note: `#[warn(unexpected_cfgs)]` on by default
+   = note: this warning originates in the macro `sel_impl` which 
+comes from the expansion of the macro `msg_send` (in Nightly 
+builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `cargo-clippy`
+  --> src\ios\game_impl.rs:17:31
+   |
+17 |         let id: *mut Object = msg_send![bundle, 
+bundleIdentifier];
+   |                               
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: no expected values for `feature`
+   = note: using a cfg inside a macro will use the cfgs from the 
+destination crate and not the ones from the defining crate
+   = help: try referring to `sel_impl` crate for guidance on how 
+handle this unexpected cfg
+   = help: the macro `sel_impl` may come from an old version of the 
+`objc` crate, try updating your dependency with `cargo update -p 
+objc`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/ca
+rgo-specifics.html> for more information about checking conditional 
+configuration
+   = note: this warning originates in the macro `sel_impl` which 
+comes from the expansion of the macro `msg_send` (in Nightly 
+builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `cargo-clippy`
+  --> src\ios\game_impl.rs:22:31
+   |
+22 |         let utf8: *const i8 = msg_send![id, UTF8String];
+   |                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: no expected values for `feature`
+   = note: using a cfg inside a macro will use the cfgs from the 
+destination crate and not the ones from the defining crate
+   = help: try referring to `sel_impl` crate for guidance on how 
+handle this unexpected cfg
+   = help: the macro `sel_impl` may come from an old version of the 
+`objc` crate, try updating your dependency with `cargo update -p 
+objc`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/ca
+rgo-specifics.html> for more information about checking conditional 
+configuration
+   = note: this warning originates in the macro `sel_impl` which 
+comes from the expansion of the macro `msg_send` (in Nightly 
+builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `cargo-clippy`
+  --> src\ios\gui_impl.rs:33:28
+   |
+33 |     let app: *mut Object = 
+msg_send![cls_ui_application.unwrap(), sharedApplication];
+   |                            
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: no expected values for `feature`
+   = note: using a cfg inside a macro will use the cfgs from the 
+destination crate and not the ones from the defining crate
+   = help: try referring to `sel_impl` crate for guidance on how 
+handle this unexpected cfg
+   = help: the macro `sel_impl` may come from an old version of the 
+`objc` crate, try updating your dependency with `cargo update -p 
+objc`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/ca
+rgo-specifics.html> for more information about checking conditional 
+configuration
+   = note: this warning originates in the macro `sel_impl` which 
+comes from the expansion of the macro `msg_send` (in Nightly 
+builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `cargo-clippy`
+  --> src\ios\gui_impl.rs:34:31
+   |
+34 |     let window: *mut Object = msg_send![app, keyWindow];
+   |                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: no expected values for `feature`
+   = note: using a cfg inside a macro will use the cfgs from the 
+destination crate and not the ones from the defining crate
+   = help: try referring to `sel_impl` crate for guidance on how 
+handle this unexpected cfg
+   = help: the macro `sel_impl` may come from an old version of the 
+`objc` crate, try updating your dependency with `cargo update -p 
+objc`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/ca
+rgo-specifics.html> for more information about checking conditional 
+configuration
+   = note: this warning originates in the macro `sel_impl` which 
+comes from the expansion of the macro `msg_send` (in Nightly 
+builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `cargo-clippy`
+  --> src\ios\gui_impl.rs:41:32
+   |
+41 |     let root_vc: *mut Object = msg_send![window, 
+rootViewController];
+   |                                
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: no expected values for `feature`
+   = note: using a cfg inside a macro will use the cfgs from the 
+destination crate and not the ones from the defining crate
+   = help: try referring to `sel_impl` crate for guidance on how 
+handle this unexpected cfg
+   = help: the macro `sel_impl` may come from an old version of the 
+`objc` crate, try updating your dependency with `cargo update -p 
+objc`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/ca
+rgo-specifics.html> for more information about checking conditional 
+configuration
+   = note: this warning originates in the macro `sel_impl` which 
+comes from the expansion of the macro `msg_send` (in Nightly 
+builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `cargo-clippy`
+  --> src\ios\gui_impl.rs:50:30
+   |
+50 |       let alert: *mut Object = msg_send![cls_ui_alert.unwrap(),
+   |  ______________________________^
+51 | |         alertControllerWithTitle: ns_title
+52 | |         message: ns_message
+53 | |         preferredStyle: 1 // UIAlertControllerStyleAlert
+54 | |     ];
+   | |_____^
+   |
+   = note: no expected values for `feature`
+   = note: using a cfg inside a macro will use the cfgs from the 
+destination crate and not the ones from the defining crate
+   = help: try referring to `sel_impl` crate for guidance on how 
+handle this unexpected cfg
+   = help: the macro `sel_impl` may come from an old version of the 
+`objc` crate, try updating your dependency with `cargo update -p 
+objc`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/ca
+rgo-specifics.html> for more information about checking conditional 
+configuration
+   = note: this warning originates in the macro `sel_impl` which 
+comes from the expansion of the macro `msg_send` (in Nightly 
+builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `cargo-clippy`
+  --> src\ios\gui_impl.rs:57:31
+   |
+57 |       let action: *mut Object = 
+msg_send![cls_ui_action.unwrap(),
+   |  _______________________________^
+58 | |         actionWithTitle: action_title
+59 | |         style: 0 // UIAlertActionStyleDefault
+60 | |         handler: std::ptr::null_mut::<c_void>()
+61 | |     ];
+   | |_____^
+   |
+   = note: no expected values for `feature`
+   = note: using a cfg inside a macro will use the cfgs from the 
+destination crate and not the ones from the defining crate
+   = help: try referring to `sel_impl` crate for guidance on how 
+handle this unexpected cfg
+   = help: the macro `sel_impl` may come from an old version of the 
+`objc` crate, try updating your dependency with `cargo update -p 
+objc`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/ca
+rgo-specifics.html> for more information about checking conditional 
+configuration
+   = note: this warning originates in the macro `sel_impl` which 
+comes from the expansion of the macro `msg_send` (in Nightly 
+builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `cargo-clippy`
+  --> src\ios\gui_impl.rs:63:17
+   |
+63 |     let _: () = msg_send![alert, addAction: action];
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: no expected values for `feature`
+   = note: using a cfg inside a macro will use the cfgs from the 
+destination crate and not the ones from the defining crate
+   = help: try referring to `sel_impl` crate for guidance on how 
+handle this unexpected cfg
+   = help: the macro `sel_impl` may come from an old version of the 
+`objc` crate, try updating your dependency with `cargo update -p 
+objc`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/ca
+rgo-specifics.html> for more information about checking conditional 
+configuration
+   = note: this warning originates in the macro `sel_impl` which 
+comes from the expansion of the macro `msg_send` (in Nightly 
+builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `cargo-clippy`
+  --> src\ios\gui_impl.rs:64:17
+   |
+64 |     let _: () = msg_send![root_vc, presentViewController: 
+alert animated: true completion: std::ptr::null_mut::<c_void>()];
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: no expected values for `feature`
+   = note: using a cfg inside a macro will use the cfgs from the 
+destination crate and not the ones from the defining crate
+   = help: try referring to `sel_impl` crate for guidance on how 
+handle this unexpected cfg
+   = help: the macro `sel_impl` may come from an old version of the 
+`objc` crate, try updating your dependency with `cargo update -p 
+objc`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/ca
+rgo-specifics.html> for more information about checking conditional 
+configuration
+   = note: this warning originates in the macro `sel_impl` which 
+comes from the expansion of the macro `msg_send` (in Nightly 
+builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `cargo-clippy`
+  --> src\ios\gui_impl.rs:70:34
+   |
+70 |     let ns_string: *mut Object = msg_send![cls_nsstring, 
+stringWithUTF8String: c_str.as_ptr()];
+   |                                  
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: no expected values for `feature`
+   = note: using a cfg inside a macro will use the cfgs from the 
+destination crate and not the ones from the defining crate
+   = help: try referring to `sel_impl` crate for guidance on how 
+handle this unexpected cfg
+   = help: the macro `sel_impl` may come from an old version of the 
+`objc` crate, try updating your dependency with `cargo update -p 
+objc`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/ca
+rgo-specifics.html> for more information about checking conditional 
+configuration
+   = note: this warning originates in the macro `sel_impl` which 
+comes from the expansion of the macro `msg_send` (in Nightly 
+builds, run with -Z macro-backtrace for more info)
+
+warning: unused `#[macro_use]` import
+ --> src\lib.rs:9:1
+  |
+9 | #[macro_use]
+  | ^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on 
+by default
+
+warning: unused import: `hook::UnityEngine_UI::CanvasScaler`
+ --> src\il2cpp\hook\umamusume\UIManager.rs:4:44
+  |
+4 | ...   ext::{Il2CppStringExt, StringExt}, 
+hook::UnityEngine_UI::CanvasScaler, symbols::{get_method_addr, 
+get_method_overload_addr, Array, ...
+  |                                          
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `symbols::get_method_addr`
+ --> src\il2cpp\hook\umamusume\Screen.rs:1:21
+  |
+1 | use crate::il2cpp::{symbols::get_method_addr, types::*};
+  |                     ^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused variable: `region`
+   --> src\core\hachimi.rs:126:37
+    |
+126 |     fn load_config(data_dir: &Path, region: &Region) -> 
+Result<Config, Error> {
+    |                                     ^^^^^^ help: if this is 
+intentional, prefix it with an underscore: `_region`
+    |
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) 
+on by default
+
+warning: variable does not need to be mutable
+  --> src\core\http.rs:90:13
+   |
+90 |         let mut downloaded_file = fs::File::create(file_path)?;
+   |             ----^^^^^^^^^^^^^^^
+   |             |
+   |             help: remove this `mut`
+   |
+   = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by 
+default
+
+warning: value assigned to `error_count` is never read
+   --> src\core\tl_repo.rs:409:31
+    |
+409 |         let mut error_count = 0;
+    |                               ^
+    |
+    = help: maybe it is overwritten before being read?
+    = note: `#[warn(unused_assignments)]` (part of 
+`#[warn(unused)]`) on by default
+
+warning: unused variable: `AnPlaneParameter`
+  --> src\il2cpp\hook\mod.rs:42:13
+   |
+42 |         let $class_name = match 
+crate::il2cpp::symbols::get_class(
+   |             ^^^^^^^^^^^
+   |
+  ::: src\il2cpp\hook\Plugins\AnimateToUnity\AnPlaneParameter.rs:4:5
+   |
+ 4 |     get_class_or_return!(Plugins, AnimateToUnity, 
+AnPlaneParameter);
+   |     
+--------------------------------------------------------------- in 
+this macro invocation
+   |
+help: `AnPlaneParameter` is captured in macro and introduced a 
+unused variable
+  --> src\il2cpp\hook\mod.rs:42:13
+   |
+42 |         let $class_name = match 
+crate::il2cpp::symbols::get_class(
+   |             ^^^^^^^^^^^
+   |
+  ::: src\il2cpp\hook\Plugins\AnimateToUnity\AnPlaneParameter.rs:4:5
+   |
+ 4 |     get_class_or_return!(Plugins, AnimateToUnity, 
+AnPlaneParameter);
+   |     
+--------------------------------------------------------------- in 
+this macro invocation
+   = note: this warning originates in the macro 
+`get_class_or_return` (in Nightly builds, run with -Z 
+macro-backtrace for more info)
+
+warning: variable does not need to be mutable
+  --> src\il2cpp\hook\umamusume\LyricsController.rs:85:9
+   |
+85 |     let mut process_element = |data: &mut dyn 
+LyricsDataCommon| {
+   |         ----^^^^^^^^^^^^^^^
+   |         |
+   |         help: remove this `mut`
+
+warning: unused variable: `scale`
+  --> src\il2cpp\hook\umamusume\UIManager.rs:27:9
+   |
+27 |     let mut scale = config.ui_scale;
+   |         ^^^^^^^^^ help: if this is intentional, prefix it with 
+an underscore: `_scale`
+
+warning: unused variable: `scaler`
+  --> src\il2cpp\hook\umamusume\UIManager.rs:43:9
+   |
+43 |     for scaler in unsafe { 
+canvas_scaler_list.as_slice().iter() } {
+   |         ^^^^^^ help: if this is intentional, prefix it with an 
+underscore: `_scaler`
+
+warning: unused variable: `Screen`
+  --> src\il2cpp\hook\mod.rs:42:13
+   |
+42 |         let $class_name = match 
+crate::il2cpp::symbols::get_class(
+   |             ^^^^^^^^^^^
+   |
+  ::: src\il2cpp\hook\umamusume\Screen.rs:87:5
+   |
+87 |     get_class_or_return!(umamusume, Gallop, Screen);
+   |     ----------------------------------------------- in this 
+macro invocation
+   |
+help: `Screen` is captured in macro and introduced a unused variable
+  --> src\il2cpp\hook\mod.rs:42:13
+   |
+42 |         let $class_name = match 
+crate::il2cpp::symbols::get_class(
+   |             ^^^^^^^^^^^
+   |
+  ::: src\il2cpp\hook\umamusume\Screen.rs:87:5
+   |
+87 |     get_class_or_return!(umamusume, Gallop, Screen);
+   |     ----------------------------------------------- in this 
+macro invocation
+   = note: this warning originates in the macro 
+`get_class_or_return` (in Nightly builds, run with -Z 
+macro-backtrace for more info)
+
+warning: variable does not need to be mutable
+   --> src\il2cpp\sql.rs:153:23
+    |
+153 |     fn get_skill_desc(mut index: i32) -> Option<*mut 
+Il2CppString> {
+    |                       ----^^^^^
+    |                       |
+    |                       help: remove this `mut`
+
+warning: unused variable: `handle`
+  --> src\ios\interceptor_impl.rs:70:29
+   |
+70 | pub unsafe fn unhook_vtable(handle: &HookHandle) -> Result<(), 
+Error> {
+   |                             ^^^^^^ help: if this is 
+intentional, prefix it with an underscore: `_handle`
+
+warning: useless assignment of variable of type `i32` to itself
+   --> src\core\utils.rs:461:9
+    |
+461 |         height = height;
+    |         ^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by 
+default
+
+warning: useless assignment of variable of type `i32` to itself
+   --> src\core\utils.rs:464:9
+    |
+464 |         width = width;
+    |         ^^^^^^^^^^^^^
+
+warning: function `class` is never used
+ --> src\il2cpp\hook\umamusume\UIManager.rs:9:8
+  |
+9 | pub fn class() -> *mut Il2CppClass {
+  |        ^^^^^
+
+warning: function `instance` is never used
+  --> src\il2cpp\hook\umamusume\UIManager.rs:13:8
+   |
+13 | pub fn instance() -> *mut Il2CppObject {
+   |        ^^^^^^^^
+
+warning: function `GetCanvasScalerList` is never used
+  --> src\il2cpp\hook\umamusume\UIManager.rs:21:23
+   |
+21 | impl_addr_wrapper_fn!(GetCanvasScalerList, 
+GETCANVASSCALERLIST_ADDR, Array, this: *mut Il2CppObject);
+   |                       ^^^^^^^^^^^^^^^^^^^
+   |
+   = note: this warning originates in the macro 
+`impl_addr_wrapper_fn` (in Nightly builds, run with -Z 
+macro-backtrace for more info)
+
+warning: function `apply_ui_scale` is never used
+  --> src\il2cpp\hook\umamusume\UIManager.rs:23:8
+   |
+23 | pub fn apply_ui_scale() {
+   |        ^^^^^^^^^^^^^^
+
+warning: function `is_steam_release` is never used
+  --> src\ios\game_impl.rs:56:8
+   |
+56 | pub fn is_steam_release(_package: &str) -> bool {
+   |        ^^^^^^^^^^^^^^^^
+
+warning: variable `executablePath` should have a snake case name
+  --> src\il2cpp\api.rs:22:42
+   |
+22 | lazy_fnptr!(il2cpp_set_config_utf16, (), executablePath: 
+*const Il2CppChar);
+   |                                          ^^^^^^^^^^^^^^ help: 
+convert the identifier to snake case: `executable_path`
+   |
+   = note: `#[warn(non_snake_case)]` (part of 
+`#[warn(nonstandard_style)]`) on by default
+
+warning: variable `executablePath` should have a snake case name
+  --> src\il2cpp\api.rs:23:36
+   |
+23 | lazy_fnptr!(il2cpp_set_config, (), executablePath: *const 
+::std::os::raw::c_char);
+   |                                    ^^^^^^^^^^^^^^ help: 
+convert the identifier to snake case: `executable_path`
+
+warning: variable `elementTypeInfo` should have a snake case name
+  --> src\il2cpp\api.rs:35:49
+   |
+35 | lazy_fnptr!(il2cpp_array_new, *mut Il2CppArray, 
+elementTypeInfo: *mut Il2CppClass, length: il2cpp_array_size_t);
+   |                                                 
+^^^^^^^^^^^^^^^ help: convert the identifier to snake case: 
+`element_type_info`
+
+warning: variable `arrayTypeInfo` should have a snake case name
+  --> src\il2cpp\api.rs:36:58
+   |
+36 | lazy_fnptr!(il2cpp_array_new_specific, *mut Il2CppArray, 
+arrayTypeInfo: *mut Il2CppClass, length: il2cpp_array_size_t);
+   |                                                          
+^^^^^^^^^^^^^ help: convert the identifier to snake case: 
+`array_type_info`
+
+warning: variable `klassReportFunc` should have a snake case name
+  --> src\il2cpp\api.rs:41:40
+   |
+41 | lazy_fnptr!(il2cpp_class_for_each, (), klassReportFunc: 
+::std::option::Option< unsafe extern "C" fn(klass: *mut 
+Il2CppClass, userData: *m...
+   |                                        ^^^^^^^^^^^^^^^ help: 
+convert the identifier to snake case: `klass_report_func`
+
+warning: variable `userData` should have a snake case name
+  --> src\il2cpp\api.rs:41:169
+   |
+41 | ...: *mut ::std::os::raw::c_void), >, userData: *mut 
+::std::os::raw::c_void);
+   |                                       ^^^^^^^^ help: convert 
+the identifier to snake case: `user_data`
+
+warning: variable `userData` should have a snake case name
+  --> src\il2cpp\api.rs:41:126
+   |
+41 | ...rn "C" fn(klass: *mut Il2CppClass, userData: *mut 
+::std::os::raw::c_void), >, userData: *mut ::std::os::raw::c_void);
+   |                                       ^^^^^^^^ help: convert 
+the identifier to snake case: `user_data`
+
+warning: variable `argsCount` should have a snake case name
+  --> src\il2cpp\api.rs:61:129
+   |
+61 | ...e: *const ::std::os::raw::c_char, argsCount: 
+::std::os::raw::c_int);
+   |                                      ^^^^^^^^^ help: convert 
+the identifier to snake case: `args_count`
+
+warning: variable `chunkReportFunc` should have a snake case name
+  --> src\il2cpp\api.rs:63:73
+   |
+63 | ... type_: *const Il2CppType, chunkReportFunc: 
+::std::option::Option< unsafe extern "C" fn( data: *mut 
+::std::os::raw::c_void, userData: ...
+   |                               ^^^^^^^^^^^^^^^ help: convert 
+the identifier to snake case: `chunk_report_func`
+
+warning: variable `userData` should have a snake case name
+  --> src\il2cpp\api.rs:63:215
+   |
+63 | ...*mut ::std::os::raw::c_void, ), >, userData: *mut 
+::std::os::raw::c_void);
+   |                                       ^^^^^^^^ help: convert 
+the identifier to snake case: `user_data`
+
+warning: variable `userData` should have a snake case name
+  --> src\il2cpp\api.rs:63:170
+   |
+63 | ...data: *mut ::std::os::raw::c_void, userData: *mut 
+::std::os::raw::c_void, ), >, userData: *mut 
+::std::os::raw::c_void);
+   |                                       ^^^^^^^^ help: convert 
+the identifier to snake case: `user_data`
+
+warning: variable `enumKlass` should have a snake case name
+  --> src\il2cpp\api.rs:68:45
+   |
+68 | lazy_fnptr!(il2cpp_class_num_fields, usize, enumKlass: *const 
+Il2CppClass);
+   |                                             ^^^^^^^^^ help: 
+convert the identifier to snake case: `enum_klass`
+
+warning: variable `numFrames` should have a snake case name
+   --> src\il2cpp\api.rs:100:100
+    |
+100 | ...tion, addresses: *mut *mut usize, numFrames: *mut 
+::std::os::raw::c_int, imageUUID: *mut *mut ::std::os::raw::c_char, 
+imageName: *mut ...
+    |                                      ^^^^^^^^^ help: convert 
+the identifier to snake case: `num_frames`
+
+warning: variable `imageUUID` should have a snake case name
+   --> src\il2cpp\api.rs:100:139
+    |
+100 | ...ames: *mut ::std::os::raw::c_int, imageUUID: *mut *mut 
+::std::os::raw::c_char, imageName: *mut *mut 
+::std::os::raw::c_char);
+    |                                      ^^^^^^^^^ help: convert 
+the identifier to snake case: `image_uuid`
+
+warning: variable `imageName` should have a snake case name
+   --> src\il2cpp\api.rs:100:184
+    |
+100 | ...*mut *mut ::std::os::raw::c_char, imageName: *mut *mut 
+::std::os::raw::c_char);
+    |                                      ^^^^^^^^^ help: convert 
+the identifier to snake case: `image_name`
+
+warning: variable `maxGenerations` should have a snake case name
+   --> src\il2cpp\api.rs:114:36
+    |
+114 | lazy_fnptr!(il2cpp_gc_collect, (), maxGenerations: 
+::std::os::raw::c_int);
+    |                                    ^^^^^^^^^^^^^^ help: 
+convert the identifier to snake case: `max_generations`
+
+warning: variable `maxTimeSlice` should have a snake case name
+   --> src\il2cpp\api.rs:122:50
+    |
+122 | lazy_fnptr!(il2cpp_gc_set_max_time_slice_ns, (), 
+maxTimeSlice: i64);
+    |                                                  ^^^^^^^^^^^^ 
+help: convert the identifier to snake case: `max_time_slice`
+
+warning: variable `targetAddress` should have a snake case name
+   --> src\il2cpp\api.rs:126:71
+    |
+126 | ..., (), obj: *mut Il2CppObject, targetAddress: *mut *mut 
+::std::os::raw::c_void, object: *mut ::std::os::raw::c_void);
+    |                                  ^^^^^^^^^^^^^ help: convert 
+the identifier to snake case: `target_address`
+
+warning: variable `userData` should have a snake case name
+   --> src\il2cpp\api.rs:130:172
+    |
+130 | ...*mut ::std::os::raw::c_void, ), >, userData: *mut 
+::std::os::raw::c_void);
+    |                                       ^^^^^^^^ help: convert 
+the identifier to snake case: `user_data`
+
+warning: variable `userData` should have a snake case name
+   --> src\il2cpp\api.rs:130:127
+    |
+130 | ...data: *mut ::std::os::raw::c_void, userData: *mut 
+::std::os::raw::c_void, ), >, userData: *mut 
+::std::os::raw::c_void);
+    |                                       ^^^^^^^^ help: convert 
+the identifier to snake case: `user_data`
+
+warning: variable `userData` should have a snake case name
+   --> src\il2cpp\api.rs:139:184
+    |
+139 | ...*mut ::std::os::raw::c_void, ), >, userData: *mut 
+::std::os::raw::c_void);
+    |                                       ^^^^^^^^ help: convert 
+the identifier to snake case: `user_data`
+
+warning: variable `userData` should have a snake case name
+   --> src\il2cpp\api.rs:139:139
+    |
+139 | ...data: *mut ::std::os::raw::c_void, userData: *mut 
+::std::os::raw::c_void, ), >, userData: *mut 
+::std::os::raw::c_void);
+    |                                       ^^^^^^^^ help: convert 
+the identifier to snake case: `user_data`
+
+warning: variable `paramCount` should have a snake case name
+   --> src\il2cpp\api.rs:191:161
+    |
+191 | ... params: *mut *mut Il2CppObject, paramCount: 
+::std::os::raw::c_int, exc: *mut *mut Il2CppException);
+    |                                     ^^^^^^^^^^ help: convert 
+the identifier to snake case: `param_count`
+
+warning: variable `stackBacktraceFunc` should have a snake case name
+   --> src\il2cpp\api.rs:217:50
+    |
+217 | lazy_fnptr!(il2cpp_override_stack_backtrace, (), 
+stackBacktraceFunc: Il2CppBacktraceFunc);
+    |                                                  
+^^^^^^^^^^^^^^^^^^ help: convert the identifier to snake case: 
+`stack_backtrace_func`
+
+warning: variable `otherType` should have a snake case name
+   --> src\il2cpp\api.rs:224:65
+    |
+224 | lazy_fnptr!(il2cpp_type_equals, bool, type_: *const 
+Il2CppType, otherType: *const Il2CppType);
+    |                                                               
+  ^^^^^^^^^ help: convert the identifier to snake case: `other_type`
+
+warning: variable `debuggerTransport` should have a snake case name
+   --> src\il2cpp\api.rs:241:59
+    |
+241 | lazy_fnptr!(il2cpp_register_debugger_agent_transport, (), 
+debuggerTransport: *mut Il2CppDebuggerTransport);
+    |                                                           
+^^^^^^^^^^^^^^^^^ help: convert the identifier to snake case: 
+`debugger_transport`
+
+warning: variable `methodDebugInfo` should have a snake case name
+   --> src\il2cpp\api.rs:242:74
+    |
+242 | lazy_fnptr!(il2cpp_debug_get_method_info, bool, arg1: *const 
+MethodInfo, methodDebugInfo: *mut Il2CppMethodDebugInfo);
+    |                                                               
+           ^^^^^^^^^^^^^^^ help: convert the identifier to snake 
+case: `method_debug_info`
+
+warning: variable `unitytlsInterfaceStruct` should have a snake 
+case name
+   --> src\il2cpp\api.rs:243:58
+    |
+243 | lazy_fnptr!(il2cpp_unity_install_unitytls_interface, (), 
+unitytlsInterfaceStruct: *const ::std::os::raw::c_void);
+    |                                                          
+^^^^^^^^^^^^^^^^^^^^^^^ help: convert the identifier to snake case: 
+`unitytls_interface_struct`
+
+error: linking with `clang` failed: exit code: 1
+  |
+  = note: "clang" "-Wl,-exported_symbols_list" 
+"-Wl,C:\\Users\\minhh\\AppData\\Local\\Temp\\rustcYZcBdq\\list" 
+"C:\\Users\\minhh\\AppData\\Local\\Temp\\rustcYZcBdq\\symbols.o" 
+"<17 object files omitted>" "-framework" "CoreFoundation" 
+"-lellekit" "E:\\Data\\Hachimi-Edge\\target\\aarch64-apple-ios\\rele
+ase\\deps/{libblake3-d214da331b1ae794,libconstant_time_eq-33a62a31d9
+d2c290,libarrayvec-1f82d0462deab33a,libarrayref-5fb29104ee2e3390,lib
+egui_extras-16e5a0bb32fd3c15,libimage-514c0e44bed1c5b2,libbytemuck-d
+fad494c01b83a9b,libcolor_quant-64703fd6f5d756d5,libpng-eda30066a5ee8
+be2,libfdeflate-91dbef44c4b2ccbd,libenum_map-4048e4dc94b035f8,libzip
+-e6a3473783083906,libbyteorder-bd48cea8266b38d7,libureq-956737101c99
+19ad,libwebpki_roots-0d004446ea6539e3,libwebpki_roots-7519719563141f
+77,libflate2-829bf2461671152c,libminiz_oxide-1fd477e384cd3825,libsim
+d_adler32-f9e294eeac9c5947,libcrc32fast-aac03a27cb719567,libbase64-6
+ee5a47db414e41a,liburl-1847419f6c2a568c,libidna-c1228f7e6a257061,lib
+utf8_iter-fad918d8d87c187a,libidna_adapter-ca964520d812e35d,libicu_p
+roperties-a51b12c1c6dec762,libicu_properties_data-285f1565f06a695e,l
+ibicu_normalizer-65121c3f756328fe,libicu_normalizer_data-6a0fbc2888e
+64e44,libicu_collections-970f9ed07234d4b2,libpotential_utf-707f81d3d
+b4b7a54,libicu_provider-3ddbd55607668d6f,libicu_locale_core-92f37a3c
+a0c29bb5,libtinystr-6c20adcadf869750,liblitemap-f5f2e162c57aa34a,lib
+writeable-ef7f225cddd5712c,libzerovec-7f2041f7795d287e,libzerotrie-d
+94c032e54a07a4b,libyoke-1cbb54db4196d4ae,libzerofrom-683ef94ce8bc0d7
+c,libform_urlencoded-94a32038fc196ff9,libpercent_encoding-ff0011fa59
+af16c6,librustls-b42c8eb67e66dcf2,libsubtle-d4b99d01d3edffb6,libwebp
+ki-f5affd16d153cb22,libring-2fd213348cec0488,libgetrandom-81c7586d7f
+6dde98,libuntrusted-4a415d3309cd55b2,librustls_pki_types-4f78e112c0c
+7ec10,libzeroize-24964a2b0291ffbd,libegui-26e679ef4ef2b226,libepaint
+-e818f3ace783c452,libnohash_hasher-318f4db12f1e733a,libecolor-68441b
+38fd262400,libahash-819e095110d8ee6f,libzerocopy-39cc53af40052fc8,li
+bab_glyph-68179965703e14a3,libowned_ttf_parser-c35056af359d3833,libt
+tf_parser-ea26b31b15fbbb03,libab_glyph_rasterizer-f0077bc0eaf2b53a,l
+ibparking_lot-1780b049818f004d,libparking_lot_core-60d0e792c29c602c,
+liblock_api-4928b764457a7637,libscopeguard-c3a2b739950d2a5f,libemath
+-e9be97bd00954987,libblock-7c119ca6c98de2fb,libsqlparser-32b3f519ca8
+4b77d,libtiny_http-d7140ec71a111f83,libhttpdate-cb067ca383a22b3b,lib
+chunked_transfer-f12ec1f877f7fa6c,libascii-5036eb4f9666eff6,libsize-
+0b0fc4309610db7e,libthread_priority-32eef9bece9e91b5,libcfg_if-57afc
+18dcbeceee2,libunicode_width-c3b6bb186814630d,libtextwrap-4987160c89
+aa44b7,libunicode_linebreak-18f291a5a71321c8,libunicode_width-001356
+69cc77bde3,libsmawk-87337bad5d1f2541,libchrono-70ca1876a66c7f83,libi
+ana_time_zone-a54b04eda748d08d,libcore_foundation_sys-9e9e3bc0f3b594
+15,libnum_traits-d6cb3f53fa0cdf41,librust_i18n-3772c8a0bbe9e221,libs
+mallvec-fecf97121029816c,librust_i18n_support-f7a77becb42c790f,libse
+rde_yaml-e0f6f6249d663c4f,libunsafe_libyaml-ca47a53c6bf03304,libglob
+walk-ee4bd8ca0db87e1b,libbitflags-281f4c151f3ad688,libignore-a18e7a6
+91f8e4ec0,libwalkdir-2faf455d02137538,libsame_file-71a4382fd940e8c7,
+libcrossbeam_deque-d8cccdbc31cf6f2c,libcrossbeam_epoch-7ee3c7b5eb835
+85b,libcrossbeam_utils-ab8d84262a34ea63,libglobset-408c18bd703866f4,
+libregex_automata-4b411311963c3b60,libregex_syntax-953fd6bb33271c9c,
+libbstr-ed1f5f47a23a7d28,libaho_corasick-a41b6f4e303086d5,libserde_j
+son-a6afc039518c86d9,libmemchr-af6ea876ec7b7e9f,libitoa-6aae8b104e78
+cf3b,libryu-3ecead26402d2c9f,libbase62-b1e95c67275ff7b2,libtoml-6992
+e8d80a6a829b,libtoml_edit-36939737b7ced32b,libserde_spanned-54edcbdd
+60e8f0cf,libindexmap-f8ffb01b74d8817d,libequivalent-1ef4e7b920642d61
+,libhashbrown-f73955d037e54f1b,libwinnow-f3c4eca15447e364,libtoml_wr
+ite-8df12e9e835c8359,libtoml_datetime-53e2a4ffac65a1a5,libsiphasher-
+ccadf6ccb4045a18,libitertools-88db6be035ac5e41,libeither-86fdfbfa6b1
+69b1c,libtriomphe-b71303517443d455,libstable_deref_trait-cd64f0c95ea
+20719,libnormpath-3fa37e41d291aa73,libwidestring-5d35cf6ba941a75e,li
+bserde-c14f9fb07b983931,libserde_core-6ebd1f4d3ea68b00,libonce_cell-
+893580d703c70be7,libfnv-fd28647fb1a46acc,libarc_swap-3f66e9a0816c01f
+a,libobjc-098856333822e38b,libmalloc_buf-5e8f29e1eb19fe47,liblibc-ff
+fd9d642903b382,liblog-7de70c71c8a18ae0}.rlib" "<sysroot>\\lib\\rustl
+ib\\aarch64-apple-ios\\lib/{libstd-*,libpanic_unwind-*,libobject-*,l
+ibmemchr-*,libaddr2line-*,libgimli-*,libcfg_if-*,librustc_demangle-*
+,libstd_detect-*,libhashbrown-*,librustc_std_workspace_alloc-*,libmi
+niz_oxide-*,libadler2-*,libunwind-*,liblibc-*,librustc_std_workspace
+_core-*,liballoc-*,libcore-*,libcompiler_builtins-*}.rlib" 
+"-lSystem" "-framework" "CoreFoundation" "-lobjc" "-liconv" 
+"-lSystem" "-lc" "-lm" "-target" "arm64-apple-ios10.0.0" "-L" "E:\\D
+ata\\Hachimi-Edge\\target\\aarch64-apple-ios\\release\\build\\blake3
+-8b482c435f27cd9a\\out" "-L" "E:\\Data\\Hachimi-Edge\\target\\aarch6
+4-apple-ios\\release\\build\\objc_exception-982063b359bb56ca\\out" 
+"-L" "E:\\Data\\Hachimi-Edge\\target\\aarch64-apple-ios\\release\\bu
+ild\\ring-7667432018af4eee\\out" "-L" 
+"E:\\Data\\Hachimi-Edge\\tools\\ios\\dobby_build" "-o" "E:\\Data\\Ha
+chimi-Edge\\target\\aarch64-apple-ios\\release\\deps\\libhachimi.dyl
+ib" "-Wl,-dead_strip" "-dynamiclib" "-nodefaultlibs" "-fuse-ld=lld" 
+"-Wl,-install_name,@rpath/libhachimi.dylib"
+  = note: some arguments are omitted. use `--verbose` to show all 
+linker arguments
+  = note: ld64.lld: error: library not found for -lellekitΓÉì
+          clang: error: linker command failed with exit code 1 (use 
+-v to see invocation)ΓÉì
+          
+
+warning: `hachimi` (lib) generated 59 warnings
+error: could not compile `hachimi` (lib) due to 1 previous error; 
+59 warnings emitted
+E:\Data\Hachimi-Edge\tools\ios\build_windows.ps1 : Build failed
+At line:1 char:5
++ & { .\tools\ios\build_windows.ps1 } 2>&1 | Out-File -Encoding 
+utf8 bu ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], Writ 
+   eErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteEr 
+   rorException,build_windows.ps1
+ 

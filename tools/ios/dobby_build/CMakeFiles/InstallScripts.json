@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/Data/Hachimi-Edge/tools/ios/dobby_build/cmake_install.cmake",
+		"E:/Data/Hachimi-Edge/tools/ios/dobby_build/external/logging/cmake_install.cmake",
+		"E:/Data/Hachimi-Edge/tools/ios/dobby_build/external/osbase/cmake_install.cmake",
+		"E:/Data/Hachimi-Edge/tools/ios/dobby_build/builtin-plugin/SymbolResolver/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -5,6 +5,10 @@
 
 rust_i18n::i18n!("assets/locales", fallback = "en");
 
+#[cfg(target_os = "ios")]
+#[macro_use]
+extern crate objc;
+
 #[macro_use] pub mod core;
 pub mod il2cpp;
 
@@ -21,3 +25,10 @@ mod windows;
 
 #[cfg(target_os = "windows")]
 use windows::{log_impl, game_impl, hachimi_impl, gui_impl, symbols_impl, interceptor_impl};
+
+/** iOS **/
+#[cfg(target_os = "ios")]
+mod ios;
+
+#[cfg(target_os = "ios")]
+use ios::{log_impl, game_impl, hachimi_impl, gui_impl, symbols_impl, interceptor_impl};
