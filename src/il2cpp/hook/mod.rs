@@ -12,7 +12,9 @@ macro_rules! new_hook {
         {
             info!("new_hook!: {}", stringify!($hook));
             if ($orig != 0) {
-                let res = hachimi.interceptor.hook($orig as usize, $hook as *const () as usize);
+                let res = hachimi
+                    .interceptor
+                    .hook($orig as usize, $hook as *const () as usize);
                 if let Err(e) = res {
                     error!("{}", e);
                 }
@@ -80,11 +82,7 @@ pub mod mscorlib;
 pub mod UnityEngine_AssetBundleModule;
 pub mod UnityEngine_CoreModule;
 pub mod UnityEngine_ImageConversionModule;
-<<<<<<< HEAD
-pub mod UnityEngine_TextRenderingModule;
-=======
 pub mod UnityEngine_Rendering;
->>>>>>> 77880937974b6b124e05617ad8dd347bd09f008d
 pub mod UnityEngine_UI;
 pub mod UnityEngine_UIModule;
 pub mod Unity_TextMeshPro;
